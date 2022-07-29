@@ -24,15 +24,15 @@ public class Controller {
             Node currentNode = (Node)(event.getSource());
             GridPane.getColumnIndex(currentNode);
             GridPane.getRowIndex(currentNode);
-            
-
-
-            
+            ((Button)currentNode).setText("X");
             xTurn = false;
         }
 
         else if(xTurn == false) {
-
+            Node currentNode = (Node)(event.getSource());
+            GridPane.getColumnIndex(currentNode);
+            GridPane.getRowIndex(currentNode);
+            ((Button)currentNode).setText("0");
             xTurn = true;
         }
     }
