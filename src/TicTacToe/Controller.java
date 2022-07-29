@@ -1,17 +1,23 @@
 package TicTacToe;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.event.ActionEvent;
 
 public class Controller {
 
-    @FXML
-    private Label label;
+
+    //True = X, False = O
+    boolean turn = true;
 
     public void initialize() {
-        String javaVersion = System.getProperty("java.version");
-        String javafxVersion = System.getProperty("javafx.version");
-        label.setText("Hello, JavaFX " + javafxVersion + "\nRunning on Java " + javaVersion + ".");
+        
+    }
+    
+    @FXML
+    void onButtonClick(ActionEvent event) {
+        
     }
     
 }
