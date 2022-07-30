@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicTacToe.Controller">
    <children>
       <GridPane gridLinesVisible="true" layoutY="105.0" prefHeight="445.0" prefWidth="600.0">
@@ -68,96 +67,6 @@
                   <Font size="45.0" />
                </font>
             </Button>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.columnIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.columnIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.rowIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.rowIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="X" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.columnIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.columnIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.rowIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.rowIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
-            <Label alignment="CENTER" prefHeight="215.0" prefWidth="343.0" text="O" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <font>
-                  <Font size="78.0" />
-               </font>
-            </Label>
          </children>
       </GridPane>
       <Label alignment="CENTER" layoutX="160.0" layoutY="14.0" prefHeight="83.0" prefWidth="304.0" text="TicTacToe">
