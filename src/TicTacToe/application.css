@@ -2,3 +2,10 @@
 *{
     -fx-font-family: 'Shadows Into Light', cursive;
 }
+.button{
+    -fx-font-size: 45;
+}
+#newGame{
+    -fx-font-size: 20;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #90bcff, #ffc5c5);
+}
