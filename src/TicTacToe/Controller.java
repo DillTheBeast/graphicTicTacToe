@@ -68,7 +68,7 @@ public class Controller {
             resetGame();
         }
     
-        if(tie()) {
+        else if(tie()) {
             Tie.showAndWait();
             resetGame();
         }
